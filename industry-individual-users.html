@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+    <title>HealthApp for Individual Users | Acesoft</title>
+    <meta name="theme-color" content="#E9F1FB">
+    <meta name="color-scheme" content="light">
+    <meta name="description" content="Individual users use HealthApp for continuous personal health monitoring, AI wellness recommendations, and seamless wearable integration.">
+    <meta name="keywords" content="HealthApp individual users, personal health monitoring, AI health score, wearable health app, wellness recommendations">
+    <meta name="author" content="Acesoft">
+    <link rel="canonical" href="https://www.acesoft.ai/industry-individual-users.html">
+    <link rel="icon" href="./assets/healthapp.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .industry-page { padding-top: 176px; padding-bottom: 96px; }
+        .industry-shell { max-width: 1180px; margin: 0 auto; }
+        .industry-hero { display:grid; grid-template-columns: 1.2fr 0.8fr; gap:18px; align-items:stretch; margin-bottom:16px; }
+        .industry-panel { position:relative; overflow:hidden; background:linear-gradient(165deg, #ffffff, #f8fafc); border:1px solid var(--border); border-radius:18px; padding:28px; box-shadow:0 16px 40px var(--shadow-md); }
+        .industry-sub { margin-top:12px; max-width:860px; color:var(--muted); line-height:1.76; font-size:.96rem; }
+        .kpi-col { display:grid; gap:10px; }
+        .kpi { border:1px solid var(--border); background:linear-gradient(160deg, #ffffff, #f1f5f9); border-radius:14px; padding:14px; }
+        .kpi strong { color:var(--white); display:block; font-size:1.18rem; margin-bottom:4px; }
+        .kpi span { color:var(--muted); font-size:.81rem; line-height:1.55; }
+        .industry-section { margin-top:22px; border:1px solid var(--border); background:linear-gradient(165deg, #ffffff, #f8fafc); border-radius:16px; padding:18px; }
+        .industry-section h2 { margin:0 0 12px; color:var(--white); font-size:1.14rem; }
+        .industry-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+        .industry-card { border:1px solid var(--border); background:linear-gradient(165deg, #ffffff, #f8fafc); border-radius:13px; padding:14px; }
+        .industry-card h3 { margin:0 0 8px; font-size:.96rem; color:var(--white); }
+        .industry-card p { margin:0; font-size:.84rem; line-height:1.62; color:var(--muted); }
+        .steps { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; }
+        .step { border:1px solid var(--border); border-radius:12px; padding:12px; }
+        .step b { display:inline-flex; width:24px; height:24px; border-radius:50%; align-items:center; justify-content:center; background:linear-gradient(145deg, rgba(26,107,255,.45), rgba(26,107,255,.2)); margin-bottom:7px; font-size:.75rem; color:var(--white); }
+        .step h4 { margin:0 0 6px; color:var(--white); font-size:.87rem; }
+        .step p { margin:0; color:var(--muted); font-size:.79rem; line-height:1.52; }
+        .industry-cta { margin-top: 24px; display: flex; gap: 10px; flex-wrap: wrap; }
+        @media (max-width:980px){ .industry-hero,.industry-grid,.steps{grid-template-columns:1fr;} }
+    </style>
+</head>
+<body>
+    <canvas id="bg"></canvas>
+    <div class="site-ambient" aria-hidden="true">
+        <span class="site-ambient__mesh"></span>
+        <span class="site-ambient__grid"></span>
+        <span class="site-ambient__orb site-ambient__orb--1"></span>
+        <span class="site-ambient__orb site-ambient__orb--2"></span>
+        <span class="site-ambient__orb site-ambient__orb--3"></span>
+    </div>
+    <div class="top-contact-bar"><div class="top-contact-bar__inner"><div class="top-contact-bar__contacts"><span>North America: +1 519 808 1000</span><span>Email: info@acesoft.ca</span></div></div></div>
+    <nav class="nav">
+        <div class="nav__logo"><a href="index.html"><img src="assets/healthapp.png" alt="HealthApp Logo" style="height: 64px; width: auto;" /></a></div>
+        <div class="nav__links" id="primaryNav">
+            <a href="index.html#solve">How It Works</a>
+            <a href="index.html#features">Overview</a>
+            <a href="index.html#pricing">Pricing</a>
+            <a href="index.html#ai" class="nav__ai-btn">AI Features</a>
+        </div>
+        <button class="nav__cta" onclick="window.location.href='contact-us.html'">Let's Connect</button>
+    </nav>
+    <section class="industry-page"><div class="container industry-shell">
+        <div class="industry-hero">
+            <div class="industry-panel">
+                <span class="section-label">Stakeholder Briefing</span>
+                <h1 class="h2">HealthApp for<br><em>Individual Users</em></h1>
+                <p class="industry-sub">Monitor and manage personal health with continuous tracking, AI-driven wellness recommendations, seamless wearable integration, and proactive illness prevention.</p>
+            </div>
+            <div class="kpi-col">
+                <div class="kpi"><strong>100+ Parameters</strong><span>Vitals, lifestyle, and mental well-being in one view</span></div>
+                <div class="kpi"><strong>AI Health Score</strong><span>Dynamic scoring with personalized improvement tips</span></div>
+                <div class="kpi"><strong>Privacy First</strong><span>You control exactly what personal details are shared</span></div>
+            </div>
+        </div>
+        <div class="industry-section"><h2>Key Benefits</h2>
+            <div class="industry-grid">
+                <article class="industry-card"><h3>Continuous monitoring</h3><p>Real-time insights into overall health and long-term well-being.</p></article>
+                <article class="industry-card"><h3>Personalized wellness</h3><p>Actionable AI recommendations for lifestyle and risk reduction.</p></article>
+                <article class="industry-card"><h3>Wearable sync</h3><p>Automatic syncing from leading smart devices—no manual entry.</p></article>
+            </div>
+        </div>
+        <div class="industry-section"><h2>Your Journey</h2>
+            <div class="steps">
+                <article class="step"><b>1</b><h4>Connect devices</h4><p>Sync wearables and health data securely.</p></article>
+                <article class="step"><b>2</b><h4>Get your score</h4><p>AI analyzes 100+ factors for your Health Score.</p></article>
+                <article class="step"><b>3</b><h4>Follow guidance</h4><p>Expert-backed tips to improve wellness.</p></article>
+                <article class="step"><b>4</b><h4>Stay motivated</h4><p>Track progress with dynamic score updates.</p></article>
+            </div>
+        </div>
+        <div class="industry-cta">
+            <button class="btn-primary" onclick="window.location.href='contact-us.html'">Request a Demo</button>
+            <button class="btn-secondary" onclick="window.location.href='index.html#pricing'">View Pricing</button>
+        </div>
+    </div></section>
+    <script src="main.js"></script>
+</body>
+</html>
